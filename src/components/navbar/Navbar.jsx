@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav class="flex w-full h-16 ">
       <div class="flex-1 flex justify-start items-center">
         <Link to="/">
-          <h3 class="text-3xl ml-36 font-league font-bold">Daniel Yu</h3>
+          <h3 class="text-3xl ml-20 font-league font-bold">Daniel Yu</h3>
         </Link>
       </div>
       <div class="flex flex-1 justify-around items-center">
