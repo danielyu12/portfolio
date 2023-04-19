@@ -8,7 +8,7 @@ import {
 import HomePage from './pages/HomePage';
 import ContactPage from './pages/ContactPage';
 import PersonalPage from './pages/PersonalPage';
-import ExperiencePage from './pages/ExperiencePage';
+import ResumePage from './pages/ResumePage';
 import Root from './Root';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path="contact" element={<ContactPage />} />
         <Route path="about-me" element={<PersonalPage />} />
-        <Route path="experience" element={<ExperiencePage />} />
+        <Route path="resume" element={<ResumePage />} />
       </Route>
     )
   );

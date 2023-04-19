@@ -12,6 +12,23 @@
       rel="stylesheet"
     />
     <title>Daniel Yu</title>
+    <style>
+      @keyframes fade-in-up {
+        0% {
+          opacity: 0;
+          transform: translateY(1rem);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .animate-fade-in-up {
+        animation-name: fade-in-up;
+        animation-duration: 1000ms;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
